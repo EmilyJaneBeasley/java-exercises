@@ -15,7 +15,7 @@ public class GradebookHashMap {
         Scanner in = new Scanner(System.in);
         String newStudent;
 
-        System.out.println("Enter your students (or ENTER to finish):");
+
 
         // Get student names and grades
         do {

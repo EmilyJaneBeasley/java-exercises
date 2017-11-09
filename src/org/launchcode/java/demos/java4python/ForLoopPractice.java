@@ -6,6 +6,10 @@ package org.launchcode.java.demos.java4python;
 public class ForLoopPractice {
 
     public static void main(String[] args) {
+        String msg = "Hello World";
+        for (char c : msg.toCharArray()){
+            System.out.println(c);
+        }
 
         // Replicate each of the Python loops in Java
 
